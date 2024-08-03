@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+ display: flex;
+}
+
+
+.Menu{
+  height: 20px;
+  width: 30px;
+  transform: translate(600px, 0px);
+  transition: 0.6s;
+  border: solid 0px
+  
+}
+
+.mac{
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.Menu:hover{
+  height: 400px;
+  width: 600px;
+}
+
+
+
+li {
+  padding: 10px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  right: 160px;
+  top: 100px;
+  display: none;
+  transition: all 4s;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.explore-mac{
+  display: none;
+  color: gray;
+}
+
+.Menu:hover  li{
+  display: block;
+  transition-delay: 2s;
+}
+
+.Menu:hover .explore-mac{
+  display: block;
+  position: relative;
+  right: 150px;
+  top: 80px;
+
+}
+
+.shop-mac{
+  display: none;
+  color: gray;
+}
+
+.Menu:hover .shop-mac{
+  display: block;
+  position: relative;
+  right: 150px;
+  top: 77px;
+}
+
+.second-drp{
+  position: relative;
+  left: 250px;
+  bottom: 400px;
+  font-size: 15px;
+}
+
+.second-drp li{
+  font-size: 14px;
+  padding: 4px;
+  position: relative;
+  right: 154px;
+  top: 100px;
+}
+
+.more-from-mac{
+  display: none;
+  color: gray;
+  transition-delay: 2s;
+}
+
+.Menu:hover .more-from-mac{
+  display: block;
+  position: relative;
+  left: 300px;
+  bottom: 490px;
+  font-size: 14px; 
+}
+
+.third-drp li{
+  position: relative;
+  left: 294px;
+  top: -480px;
+  font-size: 14px;
+  padding: 4px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
